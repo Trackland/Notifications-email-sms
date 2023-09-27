@@ -1,0 +1,19 @@
+Dear {!Contact.Name},
+We hope this message finds you well. This is a friendly reminder of your upcoming appointment with Bull Oak Clinic. We want to ensure that you have all the details you need and confirm your appointment:
+Date: {!ServiceAppointment.ActualStartDate}
+Time: {!ServiceAppointment.ActualStartTime}
+Location: Bull Oak Clinic
+Reason for Visit: {!ServiceAppointment.Subject}
+To confirm your appointment, please reply to this message with "CONFIRM" or call our office at {!Account.Phone}.  If you need to reschedule or cancel, kindly notify us at least 24 hours in advance to allow us to accommodate other patients' needs.
+Preparing for your appointment:
+If this is your first visit, please arrive 15 minutes early to complete paperwork.
+Prepare any questions or concerns you may have for your provider.
+Review any pre-appointment instructions provided by our staff.
+Your health and well-being are important to us, and we look forward to providing you with the best possible care. If you have any questions or require further assistance, don't hesitate to contact us.
+Thank you for choosing Bull Oak Clinic. We appreciate your trust in us, and we'll see you on {!ServiceAppointment.ActualStartDate}.
+Warm regards,
+Bull Oak
+{!Account.BillingStreet}, {!Account.BillingCity}, {!Account.BillingPostalCode}
+{!Account.Phone}
+{!Account.Email__c}
+{!Account.Website}
